@@ -1,3 +1,4 @@
+/* Estilos base */
 * {
     margin: 0;
     padding: 0;
@@ -34,9 +35,10 @@ input {
     width: calc(100% - 100px);
 }
 
-  input::placeholder{
+input::placeholder {
     color: white;
-  }
+}
+
 #btn-search {
     border: none;
     outline: none;
@@ -65,7 +67,6 @@ button:hover {
     align-items: center;
 }
 
-
 h2 {
     color: white;
     font-size: 28px;
@@ -86,4 +87,23 @@ h2 {
 .umidade {
     color: #ffffff;
     margin-top: 30px;
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .caixa-maior {
+        max-width: 360px; 
+    }
+
+    input {
+        font-size: 18px; 
+    }
+
+    h2 {
+        font-size: 24px; 
+    }
+
+    .temp {
+        font-size: 26px; 
+    }
 }
