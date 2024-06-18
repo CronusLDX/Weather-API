@@ -18,9 +18,8 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 * git clone https://github.com/SeuUsuario/API-Weather.git
 * cd API-Weather
-* Instale as dependências necessárias:
 * npm install
-* Inicie o servidor de desenvolvimento:
 * npm start
+  
 # Contribuição
 * Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests. Se você encontrar algum problema ou tiver sugestões de melhorias, não hesite em compartilhar.
